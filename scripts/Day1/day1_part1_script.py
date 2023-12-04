@@ -1,5 +1,5 @@
 def file_reading(file_name):
-    with open(file_name) as file:
+    with open(file_name, 'r') as file:
         lines_list = file.readlines()
         lines_list_modified = []
         for line in lines_list:
