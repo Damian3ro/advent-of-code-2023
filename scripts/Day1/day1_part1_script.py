@@ -46,3 +46,4 @@ if __name__ == '__main__':
 
     sum_of_calibration_numbers = sum_all_numbers(get_numbers_list(lines_read_from_file))
     print(f'Sum of all calibration numbers: {sum_of_calibration_numbers}')
+    # Sum: 55607
